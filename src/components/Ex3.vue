@@ -1,4 +1,6 @@
 <script>
+import axios from 'axios';
+
 export default {
 
     // add code here
@@ -6,8 +8,7 @@ export default {
         return {
             moods: ["Happy", "Sad", "Angry"],
             selMood: '',
-            entry: '', 
-            subject: '', 
+            
             
 
         }
@@ -29,7 +30,6 @@ export default {
                 params: {
                     subject: this.subject, 
                     entry: this.entry,
-                    id: this.id,
                     mood: this.selMood,
                 }
 
