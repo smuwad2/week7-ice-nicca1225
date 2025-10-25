@@ -29,7 +29,6 @@ export default {
                 params: {
                     subject: this.subject, 
                     entry: this.entry,
-                    id: this.id,
                     mood: this.selMood,
                 }
 
